@@ -1,0 +1,42 @@
+.header {
+  padding:  1.5rem 8rem;
+
+  .container {
+    .inner-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      display: block;
+      width: 48px;
+      height: 48px;
+    }
+
+    .right-side-header {
+      display: flex;
+      align-items: center;
+
+      .mnu-top {
+        list-style-type: none;
+
+        > li {
+          display: inline-block;
+          margin-right: 3rem;
+
+          > a {
+            display: block;
+            text-decoration: none;
+            color: #000;
+            transition: color .4s ease;
+
+            &:hover {
+              color: blueviolet;
+            }
+          }
+        }
+      }
+    }
+  }
+}

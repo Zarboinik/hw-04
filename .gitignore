@@ -1,0 +1,13 @@
+app.jar
+dist/
+/.idea/
+target/
+*.DS_Store
+dist
+node_modules
+package-lock.json
+/bot-frontend/build/
+/bot-frontend/yarn.lock
+/web-chat/build/
+/web-chat/yarn.lock
+*.iml
